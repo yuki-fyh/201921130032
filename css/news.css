@@ -1,0 +1,217 @@
+.wrap img {
+    width:530px;
+    padding:30px;
+    padding-left:50px;
+}
+
+#img6 {
+    width:600px;
+    height:330px;
+    float:left;
+}
+
+.kuangk {
+    width:100px;
+    height:36px;
+    background-color:#3a96f6;
+    color:white;
+}
+
+.kuangk p{
+   vertical-align: middle;
+   line-height: 36px;
+   text-align: center;
+   font-size: 15px;
+}
+
+.fl {
+    margin:45px;
+    margin-right:10px;
+    margin-top:36px;
+    float:left;
+    width:600px;
+    height:330px;
+}
+
+.zwwz p {
+    padding-left:20px;
+    padding-right:20px;
+    text-indent: 32px;
+    /* 两边对齐 */
+    text-align: justify;
+}
+
+.gd {
+    line-height:26px;
+}
+
+hr {
+    border:none;
+    border-top: 1px solid #8581ff;
+    height: 0px;
+    vertical-align: middle;
+}
+
+.wrap {
+    width:1260px;
+    height:402px;
+    float:left;
+}
+
+.inferior {
+    font-size:small;
+    line-height:22px;
+}
+
+#c2 {
+    height:362px;
+}
+
+#c3 {
+    height:370px;
+}
+
+.search{
+    width: 30%; 
+    margin: 10px auto;
+    margin-top:30px;
+    /* 弹性布局 */
+    display: flex;
+    border: 1px solid #615cff;
+}
+
+.search input{
+    float: left;
+    /* 用flex来表示占多少份数 */
+    flex: 4;
+    height: 30px;
+    outline: none;
+    border: 1px solid #615cff;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius:0px;
+}
+
+.search button{
+    float: right;
+    flex: 1;
+    height: 30px;
+    background-color: #615cff;
+    color: white;
+    border-radius:0px;
+}
+
+.search button:hover{
+    background-color: #7045ff;
+    font-size: 16px;
+}
+
+.bt {
+    margin-left:50px;
+    width:200px;
+}
+
+.h {
+    border-bottom:1px  solid #389eee;
+    margin:0px;
+    margin-left:50px;
+    float:left;
+    width:82%;
+    border-color:#389eee;
+}
+
+#div1 {
+    float:right;
+    margin-right:220px;
+}
+
+div.digg a { 
+    border: #aaaadd 1px solid; 
+    padding-right: 3px; 
+    padding-left: 5px; 
+    padding-bottom: 2px; 
+    margin: 2px; 
+} 
+
+.next {
+    color: #000099;
+}
+
+.pagebtn {
+    color: #000099;
+}
+   
+div.digg a:hover { 
+    border: #000099 1px solid; 
+    color: #000; 
+} 
+    
+div.digg a:active { 
+    border: #000099 1px solid; 
+    color: white;
+    background-color: #000099;
+} 
+
+.current {
+    border: #000099 1px solid; 
+    color: white;
+    background-color: #000099;
+}
+
+.aside {
+    border:2px dashed #615cff;
+    height:350px;
+    width:130px;
+    margin-left:1285px;
+    position:fixed;
+}
+
+.none {
+    margin:5px;
+    padding:0px;
+}
+
+.aside .c0{
+    color:#004b99;
+}
+
+.aside .c{
+    color:#1487ff;
+}
+
+.fx{
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top:605px;
+    z-index:100;
+}
+
+body:hover .fx{
+    transform: translate(100vw,-1050px)
+    rotate(45deg) scale(0.3);
+    transition: all 3s;
+}
+
+body:hover .fx:nth-child(2){
+    transition-delay: 0.2s;
+}
+
+body:hover .fx:nth-child(3){
+    transition-delay: 0.4s;
+}
+
+body:hover .fx:nth-child(4){
+    transition-delay: 0.6s;
+}
+
+body:hover .fx:nth-child(5){
+    transition-delay: 0.8s;
+}
+
+.gd1 {
+    position:absolute;
+    width:300px;
+    left:-105px;
+    top:610px;
+}

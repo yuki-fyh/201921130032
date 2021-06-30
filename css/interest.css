@@ -1,0 +1,189 @@
+body {
+    margin:0px;
+    height:1000px;
+    background:#c0e2c0;
+    background-size:100% 100%;
+    font-family: "Microsoft YaHei"，Georgia, "Times New Roman", Times, serif;
+}
+
+nav {
+    background-color: #CC9966;
+}
+
+#navigate {
+    background-color: #CC9966;
+}
+
+.item-name:hover{
+    background-color:#d96e02;
+    color:#CCCC99;
+}
+
+.sub-nav {
+    background-color:rgb(204,153,102,0.9);
+}
+
+aside {
+    background-color: #ffffc6;
+    height:530px;
+}
+
+.wrap {
+    background-color:#c0e2c0;
+    height:530px;
+}
+
+.main {
+    /* margin:0px; */
+    height:530px;
+}
+
+.main2 {
+    margin:0px;
+    height:530px;
+}
+
+.idd {
+    height:530px;
+} 
+
+.main h2 {
+    color:#660000;
+}
+
+.main2 h2 {
+    color:#660000;
+}
+
+.tgq {
+   height:260px;
+   width:190px;
+}
+
+.gq {
+    margin:0 auto;
+    width:190px;
+}
+
+.main h3 {
+   color:black;
+   margin-top:10px;
+}
+
+.main2 h3 {
+    color:black;
+    margin-top:10px;
+ }
+
+hr {
+    width:100%;
+    border-color:#4bc53c;
+}
+
+.like {
+    width:80px;
+    position:fixed;
+    top:360px;
+    left:0px;
+}
+
+.qp {
+    width:90%;
+    height:316px;
+    margin:0 auto;
+    border:3px dashed #20d708;
+}
+
+.qp1 {
+    margin-top:12px;
+    height:280px;
+    float:left;
+    display:inline-block;
+    margin-left:20px;
+    text-align: center;
+    font-size: 18px;
+    line-height:30px;
+}
+
+.qp2 {
+    height:260px;
+}
+
+.wzz {
+    width:90%;
+    text-indent: 32px;
+}
+
+.qp3 {
+    height:160px;
+    width:120px;
+}
+
+#qp5 {
+    width:80%;
+}
+
+.qp6 {
+    margin-top:12px;
+    height:160px;
+    float:left;
+    display:inline-block;
+    margin-left:10px;
+    text-align: center;
+    font-size: 18px;
+    line-height:30px;
+}
+
+.qp7 {
+    /* width:500px; */
+    height:380px;
+    border:3px dashed #20d708;
+    float:left;
+    margin-left:80px;
+}
+
+#qp8 {
+    width:74%;
+}
+
+.wzzx {
+    float:left;
+    width:150px;
+    margin-left:20px;
+    height:380px;
+}
+
+#qp16 {
+    width:88%;
+    height:186px;
+}
+
+.qp11 {
+    height:160px;
+    width:120px;
+    margin-top:12px;
+    display:inline-block;
+    margin-left:10px;
+    text-align: center;
+    font-size: 18px;
+    line-height:30px;
+}
+
+.qp9 {
+    height:160px;
+    width:120px;
+}
+
+.wzzxx {
+    margin:0 auto;
+    width:82%;
+    height:380px;
+}
+
+.wzzxx p{
+    text-indent: 32px;
+}
+
+hr {
+    margin:0px;
+}

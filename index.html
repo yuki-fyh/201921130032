@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="login">
+        <!-- 左边框 container -->
+        <div class="container">
+            <!-- 头像 tp -->
+            <div class="tp">
+                <img src="imgs/p.jpg" alt="">
+            </div>
+            <!-- end of tp -->
+            <!-- 昵称 bt -->
+            <div class="bt">
+                <h1>yuki</h1>
+            </div>
+            <!-- end of bt -->
+        </div>
+        <!-- end of container -->
+        <!-- 右边框 enter -->
+        <div class="enter">
+            <!-- 登录表单 table -->
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h2 class="btt">欢迎您</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="up">
+                                <!-- 登录表单 -->
+                                <form action="">
+                                    <ul>
+                                        <li>
+                                            <label for="name">姓名: </label><input id="id1" type="text" name="name" value="">
+                                            <p id="errormandatory1">请输入姓名！</p>
+                                        </li>
+                                        <li>
+                                            <br id="br1">
+                                            <label for="password">密码: </label><input id="id2" type="text" name="psd" value="">
+                                            <p id="errormandatory2">请输入密码！</p>
+                                        </li>
+                                     </ul>
+                                </form>
+                                <!-- end of form -->
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br  id="br2">
+                            <!-- 登录按钮 div -->
+                            <div class="bt" id="btt">
+                                <!-- 登录按钮 button -->
+                                <button id="bttt" onclick="changeStyle1()">
+                                    <span>登录</span>
+                                </button>
+                                <!-- end of button -->
+                            </div>
+                             <!-- end of div -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- end of table -->
+        </div>
+         <!-- end of enter -->
+    </div>
+</body>
+</html>
+
+
+<script>
+    // 设置填空为必填项
+    changeStyle1=function () {
+        // 按钮
+        var mychar = document.getElementsByClassName("bt");
+        // 填空1
+        var mychar11 = document.getElementById("id1");
+        var br1 = document.getElementById("br1");
+        // 填空2
+        var mychar12 = document.getElementById("id2");
+        var br2 = document.getElementById("br2");
+        // 警告文本1
+        var mychar21 = document.getElementById("errormandatory1");
+        // 警告文本2
+        var mychar22 = document.getElementById("errormandatory2");
+        // 检验是否有内容1
+        var pan1 = 0;
+        // 检验是否有内容2
+        var pan2 = 0;
+        console.log(mychar11.value)
+        console.log(mychar12.value)
+        var str1 = mychar11.value.replace(/(^\s*)|(\s*$)/g, '');//去除空格;
+        if (str1 == '' || str1 == undefined || str1 == null) {
+            console.log('空')
+            pan1=0;
+        } else {
+            console.log('非空');
+            pan1=1;
+        }
+        var str2 = mychar12.value.replace(/(^\s*)|(\s*$)/g, '');//去除空格;
+        if (str2 == '' || str2 == undefined || str2 == null) {
+            console.log('空')
+            pan2=0;
+        } else {
+            console.log('非空');
+            pan2=1;
+        }
+        console.log(pan1)
+        console.log(pan2)
+        // 如果没有则显示警告文字
+        if(pan1 === 0){
+            mychar21.style.display="block"
+            br1.style.display="none"
+        }
+        if(pan2 === 0){
+            mychar22.style.display="block"
+            br2.style.display="none"
+        }
+        // 如果没有则不显示警告文字
+        if(pan1 === 1){
+            mychar21.style.display="none"
+            br1.style.display="block"
+        }
+        if(pan2 === 1){
+            mychar22.style.display="none"
+            br2.style.display="block"
+        }
+        if(pan1 != 0 & pan2 != 0){
+            window.location.href='homepage.html'
+        }
+    }
+</script>
